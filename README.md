@@ -39,7 +39,7 @@ Since the SDL is an ongoing process, **we verify our model at the end of each so
 ## Why we don’t use automated tools <a name="noa"/>
 First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the ecosystem where the application is deployed. They lack a holistic approach to manage SDL, for instance quite a lot of vulnerability requires some prerequisites to be exploited.Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
 ## Secure development cycle <a name="sdl"/>
-![](Aspose.Words.3820afbe-71de-474a-883f-89fec06ce340.001.png)
+![](img/SDL.png)
 
 *Please note that the picture above does not take into account the verification (testing) phase, we will introduce this phase after the **mitigation** step for sure*
 
@@ -57,7 +57,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 - Think about how to mitigate attacks vector in general, not only for a single threat (e.g., input sanitization)
 
 ## Sample visual model using Miro <a name="sam"/>
-![](Aspose.Words.3820afbe-71de-474a-883f-89fec06ce340.002.png)
+![](img/board.png)
 
 ## Workflow <a name="wor"/>
 1. Design the architecture. Identify
@@ -105,7 +105,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |13.a|Since I want to know which third-party libraries I use in my application, I will create an inventory of them|
 |13.c|Since a new vulnerability is affecting a third-party library, I will patch it according to our defined policy|
 
-1. For the threat that you can directly mitigate into the code keep track of them as follows:
+6. For the threat that you can directly mitigate into the code keep track of them as follows:
 
 |Threat ID|Owner|State|Mitigation|
 | :- | :- | :- | :- |
@@ -119,7 +119,9 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |13.b|<p>TS FuckPutin inc.</p><p></p>|Transferred|FuckPutin inc. continuous monitor for newly emerged threats|
 
 ## Verification <a name="ver"/>
-![](Aspose.Words.3820afbe-71de-474a-883f-89fec06ce340.003.png)To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue.
+![](img/bdd.png)
+
+To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue.
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
