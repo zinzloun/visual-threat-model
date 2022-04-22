@@ -1,4 +1,4 @@
-<p align='right'>Ver. 1.220422<br>Author: F. Bersani for FuckPutin INC </p>
+<p align='right'>Ver. 1.220422<br>Author: F. Bersani</p>
 
 
 # Software threat model: a visual approach
