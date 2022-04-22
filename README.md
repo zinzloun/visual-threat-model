@@ -91,7 +91,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 1. **Prioritized** risk resolution based on the score for the threats that can be mitigated into the code
 1. Create the relative user story for the *security developer personas*:
 
-|Threat ID|As *security* developer|
+|Threat.ID|As *security* developer|
 | :- | :- |
 |2|Since I fear that the CIA of the data can be compromised through input injections, I will sanitize all the user input|
 |3|Since I fear that the CIA of the data can be compromised through insecure deserialization, I will not use serialized object|
@@ -107,7 +107,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 
 6. For the threat that you can directly mitigate into the code keep track of them as follows:
 
-|Threat ID|Owner|State|Mitigation|
+|Threat.ID|Owner|State|Mitigation|
 | :- | :- | :- | :- |
 |1|Client|Transferred|The client will apply his own patch management policy|
 |6|FuckPutin inc.|Mitigated|We provide user training|
