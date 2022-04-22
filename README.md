@@ -6,23 +6,23 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 
 ***Table of contents***
 
-[Prerequisite](#pre)
+1. [Prerequisite](#pre)
 
-[About our approach](#abo)
+1. [About our approach](#abo)
 
-[Why we don’t use automated tools](#noa)
+1. [Why we don’t use automated tools](#noa)
 
-[Secure development cycle](#sdl)
+1. [Secure development cycle](#sdl)
 
-[An approach using Miro](#mir)
+1. [An approach using Miro](#mir)
 
-[Sample visual model using Miro](#sam)
+1. [Sample visual model using Miro](#sam)
 
-[Workflow](#wor)
+1. [Workflow](#wor)
 
-[Verification](#ver)
+1. [Verification](#ver)
 
-[References](#ref)
+1. [References](#ref)
 
 ## Prerequisite <a name="pre"/>
 To implement this approach, **you have to be confident on cyber threats in general**, **and to have specific knowledge about pen testing**, the more you have the better it is. If you don’t have such skills, it is advisable to engage one or more consultants to assist you in implementing SDL.
