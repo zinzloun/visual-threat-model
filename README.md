@@ -1,4 +1,4 @@
-<p>Ver. 1.220422</p><p>Author: F. Bersani for FuckPutin INC </p>
+<p align='right'>Ver. 1.220422<br>Author: F. Bersani for FuckPutin INC </p>
 
 
 # Software threat model: a visual approach
@@ -126,6 +126,5 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 - <https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html>
 - <https://www.youtube.com/watch?v=tCG1m9CmAPo>
 - <https://cucumber.io/blog/bdd/example-mapping-introduction> 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-SDL: A visual approach
+---
+###### SDL: A visual approach
