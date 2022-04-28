@@ -28,7 +28,7 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 To implement this approach, **you have to be confident on cyber threats in general**, **and to have specific knowledge about pen testing**, the more you have the better it is. If you don’t have such skills, it is advisable to engage one or more consultants to assist you in implementing SDL.
 
 Also, you have to be confident to implement an Agile principle into your SDLC
-## About our approach <a name="abo"/>
+## About this approach <a name="abo"/>
 We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rather we borrowed some VAST concepts. Our method is based on the COVID 19 APP threat model: <https://www.youtube.com/watch?v=tCG1m9CmAPo>
 
 Since we truly believe that visual representation greatly helps to identify and analyze every process, we proceeded using Miro, that actually is the only one tool used.
@@ -37,14 +37,14 @@ Furthermore, we need to have a live model, integrated into our SDLC that is base
 
 Since the SDL is an ongoing process, **we verify our model at the end of each software production iteration**. Implementing security requirements as user story, furthermore helps us to identify proper scenario in the validation of the acceptance criteria **using BDD example mapping.**
 
-## Why we don’t use automated tools <a name="noa"/>
+## Why I don’t use automated tools <a name="noa"/>
 First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the ecosystem where the application is deployed. They lack a holistic approach to manage SDL, for instance quite a lot of vulnerability requires some prerequisites to be exploited.Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
 ## Secure development cycle <a name="sdl"/>
 ![](img/SDL.png)
 
 *Please note that the picture above does not take into account the verification (testing) phase, we will introduce this phase after the **mitigation** step for sure*
 
-## An approach using Miro <a name="mir"/>
+## Design with Miro <a name="mir"/>
 - Identify threat actors
 - Identify assets
 - Identify data flows
