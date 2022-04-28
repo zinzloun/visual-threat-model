@@ -14,8 +14,6 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 
 1. [Secure development cycle](#sdl)
 
-1. [Design with Miro](#mir)
-
 1. [Sample visual model using Miro](#sam)
 
 1. [Workflow](#wor)
@@ -44,7 +42,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 
 *Please note that the picture above does not take into account the verification (testing) phase, we will introduce this phase after the **mitigation** step for sure*
 
-## Design with Miro <a name="mir"/>
+## Sample visual model using Miro <a name="sam"/>
 - Identify threat actors
 - Identify assets
 - Identify data flows
@@ -57,7 +55,6 @@ First, they cost quite a lot of money, but the main reason is that they produce 
   - Transferred
 - Think about how to mitigate attacks vector in general, not only for a single threat (e.g., input sanitization)
 
-## Sample visual model using Miro <a name="sam"/>
 ![](img/board.png)
 
 ## Workflow <a name="wor"/>
