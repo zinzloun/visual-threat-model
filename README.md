@@ -8,13 +8,13 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 
 1. [Prerequisite](#pre)
 
-1. [About our approach](#abo)
+1. [About this approach](#abo)
 
-1. [Why we don’t use automated tools](#noa)
+1. [Why I don’t use automated tools](#noa)
 
 1. [Secure development cycle](#sdl)
 
-1. [An approach using Miro](#mir)
+1. [Design with Miro](#mir)
 
 1. [Sample visual model using Miro](#sam)
 
