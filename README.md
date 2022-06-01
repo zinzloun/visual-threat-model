@@ -10,7 +10,7 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 
 1. [About this approach](#abo)
 
-1. [Why I don’t use automated tools](#noa)
+1. [Why we don’t use automated tools](#noa)
 
 1. [Secure development cycle](#sdl)
 
