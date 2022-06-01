@@ -35,7 +35,7 @@ Furthermore, we need to have a live model, integrated into our SDLC that is base
 
 Since the SDL is an ongoing process, **we verify our model at the end of each software production iteration**. Implementing security requirements as user story, furthermore helps us to identify proper scenario in the validation of the acceptance criteria **using BDD example mapping.**
 
-## Why I don’t use automated tools <a name="noa"/>
+## Why we don’t use automated tools <a name="noa"/>
 First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the ecosystem where the application is deployed. They lack a holistic approach to manage SDL, for instance quite a lot of vulnerability requires some prerequisites to be exploited.Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
 ## Secure development cycle <a name="sdl"/>
 ![](img/SDL.png)
