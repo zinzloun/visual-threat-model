@@ -126,5 +126,6 @@ To verify the secure user stories, we use BDD with example mapping. The idea is 
 - <https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html>
 - <https://www.youtube.com/watch?v=tCG1m9CmAPo>
 - <https://cucumber.io/blog/bdd/example-mapping-introduction> 
+- <https://securityintelligence.com/posts/a-guide-to-easy-and-effective-threat-modeling>
 ---
 ###### SDL: A visual approach
