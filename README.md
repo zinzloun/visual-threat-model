@@ -20,6 +20,8 @@ Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<
 
 1. [Verification](#ver)
 
+1. [Refectoring](#rec)
+
 1. [References](#ref)
 
 ## Prerequisite <a name="pre"/>
@@ -122,6 +124,10 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 ![](img/bdd.png)
 
 To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue.
+
+## Refactoring <a name="rec"/>
+
+Of course it would be ideal to review your model periodically, at least each time that any change occurs into the software, but it is not enough since new threats emerge everyday. An approach to mitigate this problem is to not consider threat modeling as a separate projectual activity but really integrated into development, so when a new features is introduced to the software try to think before to the possible risks that involves, I don't use the word threat here on purpose, since the threats should be brainstormed with the whole team starting analyzing the risks, a TDD approach should be used here.
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
