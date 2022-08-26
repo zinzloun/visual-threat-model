@@ -33,7 +33,7 @@ Since we truly believe that visual representation greatly helps to identify and 
 
 Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as user story (US). W**e have created US only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team, we use an approach of *educating and monitoring,* based on our own policies. You can use a different approach, the important concept here is to have a holistic approach: you have to take care of the whole system. Take a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
 
-Stay focused on technical threats and vulnerabilities without loosing the big picture entirely, conduct a pragmatic and risk-based analysis to prioritize threats.
+Stay focused on technical threats and vulnerabilities without loosing the big picture entirely, conduct a pragmatic and risk-based analysis to prioritize threats. The diversity of perspectives is foundamental here.
 
 Since the SDL is an ongoing process, **we verify our model at the end of each software production iteration**. Implementing security requirements as user story, furthermore helps us to identify proper scenario in the validation of the acceptance criteria **using BDD example mapping.**
 
