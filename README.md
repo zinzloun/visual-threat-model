@@ -133,6 +133,7 @@ Of course it would be ideal to review your model periodically, at least each tim
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
 - <https://cheatsheetseries.owasp.org/cheatsheets/Threat_Modeling_Cheat_Sheet.html>
 - <https://www.youtube.com/watch?v=tCG1m9CmAPo>
+- <https://martinfowler.com/articles/agile-threat-modelling.html#RabbitHoleWhatAboutNationStatesAnd0-day>
 - <https://cucumber.io/blog/bdd/example-mapping-introduction> 
 - <https://securityintelligence.com/posts/a-guide-to-easy-and-effective-threat-modeling>
 ---
