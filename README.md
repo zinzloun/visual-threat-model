@@ -123,7 +123,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 ## Verification <a name="ver"/>
 ![](img/bdd.png)
 
-To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue.
+To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue. Finally include security requirements implementation into definition of done for each software iteration release (usually Sprint based).
 
 ## Refactoring <a name="rec"/>
 
