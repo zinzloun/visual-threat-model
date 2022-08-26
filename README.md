@@ -1,4 +1,4 @@
-<p align='right'>Ver. 1.220422<br>Author: Me aka FuckPutin INC<br>
+<p align='right'>Ver. 1.260822<br>Author: Me<br>
 Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<a href="https://github.com/merlok">merlok</a>
   </p>
 
