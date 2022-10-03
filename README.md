@@ -43,9 +43,9 @@ Since the SDL is an ongoing process, **we verify our model at the end of each so
 ## Why we don’t use automated tools <a name="noa"/>
 First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the ecosystem where the application is deployed. They lack a holistic approach to manage SDL, for instance quite a lot of vulnerability requires some prerequisites to be exploited.Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
 ## Secure development cycle <a name="sdl"/>
-![](img/SDL.png)
+![](https://www.h-x.technology/wp-content/uploads/2021/02/Infogr-SDLC.png.webp)
 
-*Please note that the picture above does not take into account the verification (testing) phase, we will introduce this phase after the **mitigation** step for sure*
+<sub><sup>www.h-x.technology/services/secure-development-lifecycle</sup></sub>
 
 ## Sample visual model using Miro <a name="sam"/>
 - Identify threat actors
