@@ -47,6 +47,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 
 <sub><sup>www.h-x.technology/services/secure-development-lifecycle</sup></sub>
 
+
 ## Sample visual model using Miro <a name="sam"/>
 - Identify threat actors
 - Identify assets
