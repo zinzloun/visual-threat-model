@@ -1,6 +1,4 @@
-<p align='right'>Ver. 1.7
-Contributors:&nbsp;<a href="https://github.com/whitesheep">whitesheep</a>&nbsp;<a href="https://github.com/merlok">merlok</a>
-  </p>
+<p align='right'>Ver. 1.9</p>
 
 # Software threat model: a visual approach
 
