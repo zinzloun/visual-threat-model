@@ -59,7 +59,7 @@ First, they cost quite a lot of money, but the main reason is that they produce 
   - Transferred
 - Think about how to mitigate attacks vector in general, not only for a single threat (e.g., input sanitization)
 
-![](img/board.png)
+![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/board.png)
 
 ## Workflow <a name="wor"/>
 1. Design the architecture. Identify
