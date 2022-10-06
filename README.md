@@ -32,14 +32,19 @@ We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rathe
 
 Since we truly believe that visual representation greatly helps to identify and analyze every process, we proceeded using <b>Miro</b>, that actually is the only one tool used.
 
-Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as secure user story (SUS). W**e have created US only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team, we use an approach of *educating and monitoring,* based on our own policies. You can use a different approach, the important concept here is to have a holistic approach: you have to take care of the whole system. Take a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
+Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as secure user story (SUS). **We create SUS only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team (e.g. a webserver configuration), we provide guidelines about how to implement the mitigations to the service owner. 
+The following flowchart better explain the process:
+![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/TM-wf.jpg)
+
+The truth behind the holistic approach is that there are part of the system - especially we are talking about the enviroment where the application will be deployed - that are not under our control, maybe they ar in the early stage testing phase, but almost never in production. In this situation is essential to pursue a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
 
 Stay focused on technical threats and vulnerabilities without loosing the big picture entirely, conduct a pragmatic and risk-based analysis to prioritize threats. The diversity of perspectives is foundamental here.
 
 Since the SDL is an ongoing process, **we verify our model at the end of each software production iteration**. Implementing security requirements as user story, furthermore helps us to identify proper scenario in the validation of the acceptance criteria **using BDD example mapping.**
 
 ## Why we don’t use automated tools <a name="noa"/>
-First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the ecosystem where the application is deployed. They lack a holistic approach to manage SDL, for instance quite a lot of vulnerability requires some prerequisites to be exploited.Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
+First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the enviroment where the application is deployed or the business context, the socio-political situation. They miss to contextualize the threat model with the business model, neither they can evalute the whole application context (e.g. system integration). Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
+
 ## Secure development cycle <a name="sdl"/>
 ![](https://www.h-x.technology/wp-content/uploads/2021/02/Infogr-SDLC.png.webp)
 
@@ -119,9 +124,6 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |10.a|Client|Transferred|We provided line guides for DB table encryption|
 |12|Us|Accepted|Hiring policy<br>NDA<br>Logging and monitoring|
 |13.b|Us|Transferred|TS continuous monitor for newly emerged threats|
-
-Follows a flow chart about threat management
-![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/TM-wf.jpg)
 
 ## Verification <a name="ver"/>
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/bdd.png)
