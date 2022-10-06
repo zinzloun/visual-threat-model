@@ -32,11 +32,11 @@ We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rathe
 
 Since we truly believe that visual representation greatly helps to identify and analyze every process, we proceeded using <b>Miro</b>, that actually is the only one tool used.
 
-Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as secure user story (SUS). **We create SUS only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team (e.g. a webserver configuration), we provide guidelines about how to implement the mitigations to the service owner. 
+Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as secure user story (SUS). **We create SUS only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team (e.g. a webserver configuration), we provide guidelines about how to implement the mitigations to the service or asset owner. 
 The following flowchart better explain the process:
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/TM-wf.jpg)
 
-The truth behind the holistic approach is that there are part of the system - especially we are talking about the enviroment where the application will be deployed - that are not under our control, maybe they ar in the early stage testing phase, but almost never in production. In this situation is essential to pursue a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
+The truth behind the holistic approach is that there are part of the system - especially we are talking about the enviroment where the application will be deployed - that are not under our control, maybe they are in the early stage, the testing enviroment, but almost never in production. In this situation is essential to pursue a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
 
 Stay focused on technical threats and vulnerabilities without loosing the big picture entirely, conduct a pragmatic and risk-based analysis to prioritize threats. The diversity of perspectives is foundamental here.
 
