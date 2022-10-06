@@ -112,13 +112,13 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |Threat.ID|Owner|State|Mitigation|
 | :- | :- | :- | :- |
 |1|Client|Transferred|The client will apply his own patch management policy|
-|6|Me |Mitigated|We provide user training|
+|6|Us |Mitigated|We provide user training|
 |7|Client|Mitigated|HTTPS has been enabled|
-|8|Me|Accepted|We have a DDOS response plane defined|
+|8|Us|Accepted|We have a DDOS response plane defined|
 |9|Client|Transferred|We provided line guides for hardening the system|
 |10.a|Client|Transferred|We provided line guides for DB table encryption|
-|12|Me|Accepted|Hiring policy<br>NDA<br>Logging and monitoring|
-|13.b|<p>TS</p><p></p>|Transferred|TS continuous monitor for newly emerged threats|
+|12|Us|Accepted|Hiring policy<br>NDA<br>Logging and monitoring|
+|13.b|Us|Transferred|TS continuous monitor for newly emerged threats|
 
 ## Verification <a name="ver"/>
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/bdd.png)
