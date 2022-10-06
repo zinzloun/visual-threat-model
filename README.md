@@ -1,4 +1,4 @@
-<p align='right'>Ver. 1.9</p>
+<p align='right'>Ver. 2.0</p>
 
 # Software threat model: a visual approach
 
@@ -119,6 +119,9 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |10.a|Client|Transferred|We provided line guides for DB table encryption|
 |12|Us|Accepted|Hiring policy<br>NDA<br>Logging and monitoring|
 |13.b|Us|Transferred|TS continuous monitor for newly emerged threats|
+
+Follows a flow chart about threat management
+![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/TM-wf.jpg)
 
 ## Verification <a name="ver"/>
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/bdd.png)
