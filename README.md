@@ -29,7 +29,7 @@ To implement this approach, **you have to be confident on cyber threats in gener
 
 Also, you have to be confident to implement an Agile principle into your SDLC
 ## About this approach <a name="abo"/>
-We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rather we borrowed some VAST concepts. Our method is based on the COVID 19 APP threat model: <https://www.youtube.com/watch?v=tCG1m9CmAPo>.
+We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rather we borrowed some VAST concepts. Our method is based on the COVID 19 APP threat model: <https://www.youtube.com/watch?v=tCG1m9CmAPo>. 
 <br/>We also use the NIST data-centric threat model: https://csrc.nist.gov/CSRC/media/Publications/sp/800-154/draft/documents/sp800_154_draft.pdf and we use the ATT&CK matrix to help us to discovery malicious techniques. The matrix is very useful to support in indentifing malicious scenario with related use-cases. A very useful tool to help in this process is the Navigator: https://mitre-attack.github.io/attack-navigator
 
 Since we truly believe that visual representation greatly helps to identify and analyze every process, we proceeded using <b>Miro</b>, that actually is the only one tool used.
