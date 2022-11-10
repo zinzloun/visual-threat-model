@@ -20,7 +20,7 @@
 
 1. [Refectoring](#rec)
 
-1. [AWS Sample model](#aws)
+1. [AWS Simple model](#aws)
 
 1. [References](#ref)
 
