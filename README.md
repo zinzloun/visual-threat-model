@@ -137,7 +137,9 @@ To verify the secure user stories, we use BDD with example mapping. The idea is 
 Of course it would be ideal to review your model periodically, at least each time that any change occurs into the software, but it is not enough since new threats emerge everyday. An approach to mitigate this problem is to not consider threat modeling as a separate projectual activity but really integrated into development, so when a new features is introduced to the software try to think before to the possible risks that involves, I don't use the word threat here on purpose, since the threats should be brainstormed with the whole team starting analyzing the risks, a TDD approach should be used here.
 
 ## AWS sample model <a name="aws"/>
+Following you can find a threat model for a simple AWS architecture
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/aws_sample_tm.jpg)
+Here you can download the related security check list (ODT file):
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
