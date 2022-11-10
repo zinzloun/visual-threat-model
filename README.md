@@ -140,7 +140,7 @@ Of course it would be ideal to review your model periodically, at least each tim
 Following you can find a threat model for a simple AWS architecture
 ![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/aws_sample_tm.jpg)
 
-Here you can download the related [security check list](./blob/main/doc/AWS_SecList_1.0.odt)
+Here you can download the related [security check list](./doc/AWS_SecList_1.0.odt)
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
