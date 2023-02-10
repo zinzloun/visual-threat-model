@@ -20,7 +20,7 @@
 
 1. [Refectoring](#rec)
 
-1. [Using the model in hexagona architecture](#hex)
+1. [Using the model in hexagonal architecture](#hex)
 
 1. [References](#ref)
 
