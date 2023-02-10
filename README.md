@@ -1,4 +1,4 @@
-<p align='right'>Ver. 2.0</p>
+<p align='right'>Ver. 1.0</p>
 
 # Software threat model: a visual approach
 
@@ -24,11 +24,11 @@
 
 1. [References](#ref)
 
-## Prerequisite <a name="pre"/>
+## <a name="pre">Prerequisite</a>
 To implement this approach, **you have to be confident on cyber threats in general**, **and to have specific knowledge about pen testing**, the more you have the better it is. If you don’t have such skills, it is advisable to engage one or more consultants to assist you in implementing SDL.
 
 Also, you have to be confident to implement an Agile principle into your SDLC
-## About this approach <a name="abo"/>
+## <a name="abo">About this approach</a>
 We don’t use any well-known methodology (PASTA, STRIDE, VAST and so on), rather we borrowed some VAST concepts. Our method is based on the COVID 19 APP threat model: <https://www.youtube.com/watch?v=tCG1m9CmAPo>. 
 <br/>We also use the NIST data-centric threat model: https://csrc.nist.gov/CSRC/media/Publications/sp/800-154/draft/documents/sp800_154_draft.pdf and we use the ATT&CK matrix to help us to discovery malicious techniques. The matrix is very useful to support in indentifing malicious scenario with related use-cases. A very useful tool to help in this process is the Navigator: https://mitre-attack.github.io/attack-navigator
 
@@ -36,7 +36,7 @@ Since we truly believe that visual representation greatly helps to identify and 
 
 Furthermore, we need to have a live model, integrated into our SDLC that is based on Agile, so we introduced the s*ecurity developer personas* and we managed the mitigation actions as secure user story (SUS). **We create SUS only for those mitigations that can be directly implemented into the code**, for those mitigation actions that are not under direct control of the DEV team (e.g. a webserver configuration), we provide guidelines about how to implement the mitigations to the service or asset owner. 
 The following flowchart better explain the process:
-![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/TM-wf.jpg)
+![](./img/TM-wf.jpg)
 
 The truth behind the holistic approach is that there are part of the system - especially we are talking about the enviroment where the application will be deployed - that are not under our control, maybe they are in the early stage, the testing enviroment, but almost never in production. In this situation is essential to pursue a collaborative approach, team based, brainstorm your model and if you can involve the product owner to explore the business context.
 
@@ -44,16 +44,16 @@ Stay focused on technical threats and vulnerabilities without loosing the big pi
 
 Since the SDL is an ongoing process, **we verify our model at the end of each software production iteration**. Implementing security requirements as user story, furthermore helps us to identify proper scenario in the validation of the acceptance criteria **using BDD example mapping.**
 
-## Why we don’t use automated tools <a name="noa"/>
+## <a name="noa"/>Why we don’t use automated tools</a>
 First, they cost quite a lot of money, but the main reason is that they produce a lot of false positive based on general mitigations, of course they don’t take into consideration the enviroment where the application is deployed or the business context, the socio-political situation. They miss to contextualize the threat model with the business model, neither they can evalute the whole application context (e.g. system integration). Furthermore, these tools do not care about the worst threat: social engineering. They are mainly focused on assets and processes, without considering that very often security involves humans. 
 
-## Secure development cycle <a name="sdl"/>
+## <a name="sdl">Secure development cycle</a>
 ![](https://www.h-x.technology/wp-content/uploads/2021/02/Infogr-SDLC.png.webp)
 
 <sub><sup>www.h-x.technology/services/secure-development-lifecycle</sup></sub>
 
 
-## Sample visual model using Miro <a name="sam"/>
+## <a name="sam">Sample visual model using Miro</a>
 - Identify threat actors
 - Identify assets
 - Identify data flows
@@ -66,9 +66,9 @@ First, they cost quite a lot of money, but the main reason is that they produce 
   - Transferred
 - Think about how to mitigate attacks vector in general, not only for a single threat (e.g., input sanitization)
 
-![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/board.png)
+![](./img/board.png)
 
-## Workflow <a name="wor"/>
+## <a name="wor">Workflow</a>
 1. Design the architecture. Identify
    1. Zones
    1. Assets
@@ -127,20 +127,14 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |12|Us|Accepted|Hiring policy<br>NDA<br>Logging and monitoring|
 |13.b|Us|Transferred|TS continuous monitor for newly emerged threats|
 
-## Verification <a name="ver"/>
-![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/bdd.png)
+## <a name="ver">Verification</a>
+![](./img/bdd.png)
 
 To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue. Finally include security requirements implementation into definition of done for each software iteration release (usually Sprint based).
 
-## Refactoring <a name="rec"/>
+## <a name="rec">Refactoring</a>
 
 Of course it would be ideal to review your model periodically, at least each time that any change occurs into the software, but it is not enough since new threats emerge everyday. An approach to mitigate this problem is to not consider threat modeling as a separate projectual activity but really integrated into development, so when a new features is introduced to the software try to think before to the possible risks that involves, I don't use the word threat here on purpose, since the threats should be brainstormed with the whole team starting analyzing the risks, a TDD approach should be used here.
-
-## AWS sample model <a name="aws"/>
-Following you can find a threat model for a simple AWS architecture
-![](https://raw.githubusercontent.com/zinzloun/visual-threat-model/main/img/aws_sample_tm.jpg)
-
-Here you can download the related [security check list](./doc/AWS_SecList_1.0.odt)
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
