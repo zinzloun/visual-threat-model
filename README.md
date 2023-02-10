@@ -1,4 +1,4 @@
-<p align='right'>Ver. 1.0</p>
+<p align='right'>Ver. 1.1</p>
 
 # Software threat model: a visual approach
 
@@ -20,7 +20,7 @@
 
 1. [Refectoring](#rec)
 
-1. [AWS Simple model](#aws)
+1. [Using the model in hexagona architecture](#hex)
 
 1. [References](#ref)
 
@@ -128,13 +128,18 @@ First, they cost quite a lot of money, but the main reason is that they produce 
 |13.b|Us|Transferred|TS continuous monitor for newly emerged threats|
 
 ## <a name="ver">Verification</a>
-![](./img/bdd.png)
+![img](./img/bdd.png)
 
 To verify the secure user stories, we use BDD with example mapping. The idea is to define the rules as acceptable criteria for the security requirements, starting from a real scenario (examples). This job has to be conducted as a brainstorming session, if possible, involving all the members of the DEV team. Moreover, this approach helps to reveal missed security requirements as new user stories, if you have any doubts, you can use the red note to trace them - as shown in the image above - and further discuss the issue. Finally include security requirements implementation into definition of done for each software iteration release (usually Sprint based).
 
 ## <a name="rec">Refactoring</a>
 
 Of course it would be ideal to review your model periodically, at least each time that any change occurs into the software, but it is not enough since new threats emerge everyday. An approach to mitigate this problem is to not consider threat modeling as a separate projectual activity but really integrated into development, so when a new features is introduced to the software try to think before to the possible risks that involves, I don't use the word threat here on purpose, since the threats should be brainstormed with the whole team starting analyzing the risks, a TDD approach should be used here.
+
+## <a name="hex">Using the model in hexagonal architecture</a>
+Implementing an [hexagonal architecture](https://dev.to/dyarleniber/hexagonal-architecture-and-clean-architecture-with-examples-48oi) can greatly help in implementing boundary validation, since the defensive logic can be implemented into the adapter, permetting to implement specific control related to an asset (e.g. database, file system). The following diagram show a simple implementation:
+<br>![img](./img/hex.png)<br>
+Applying the single responsability principle [SRP](https://en.wikipedia.org/wiki/Single-responsibility_principle) can help to isolate the vulnerabilities related to a specific functionality, reducing business logic flaws. 
 
 ## References <a name="ref"/>
 - <https://owasp.org/www-pdf-archive//Threat-Modelling_oct2017.pdf>
